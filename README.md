@@ -1,4 +1,4 @@
-# leaving some DSA notes here
+# DSA Notes + LC tips
 
 gitbook: [https://hanekawa-1.gitbook.io/lc-gb/](https://hanekawa-1.gitbook.io/lc-gb/)
 
