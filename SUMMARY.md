@@ -1,6 +1,6 @@
 # Table of contents
 
-* [leaving some DSA notes here](README.md)
+* [DSA notes + LC tips](README.md)
 
 ## Search Algorithms
 
