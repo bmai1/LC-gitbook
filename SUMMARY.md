@@ -6,8 +6,12 @@
 
 * [🥴 binary search](search-algorithms/binary-search.md)
 * [🥵 dfs](search-algorithms/dfs.md)
-* [😩 bfs](search-algorithms/bfs.md)
+* [🍆 bfs](search-algorithms/bfs.md)
 * [🥶 A\* search](search-algorithms/a-search.md)
+
+## graphs
+
+* [👽 what's a graph?](graphs/whats-a-graph.md)
 
 ## double penetration
 
