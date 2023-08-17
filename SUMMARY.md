@@ -26,3 +26,7 @@
 ## bit manipulation
 
 * [💀 operators](bit-manipulation/operators.md)
+
+## 🕵♂ backtracking
+
+* [intuition + examples](backtracking/intuition-+-examples.md)
