@@ -2,6 +2,11 @@
 
 * [DSA notes + LC tips](README.md)
 
+## Sorting algorithms
+
+* [🤢 bubble sort](sorting-algorithms/bubble-sort.md)
+* [🤪 merge sort](sorting-algorithms/merge-sort.md)
+
 ## Search Algorithms
 
 * [🥴 binary search](search-algorithms/binary-search.md)
