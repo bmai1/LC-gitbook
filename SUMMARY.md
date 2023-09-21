@@ -19,6 +19,11 @@
 
 * [👽 what's a graph?](graphs/whats-a-graph.md)
 
+## backtracking
+
+* [😹 backtracking intuition](backtracking/backtracking-intuition.md)
+* [👑 N-Queens (51.)](backtracking/n-queens-51..md)
+
 ## double penetration
 
 * [😰 how to approach dp](double-penetration/how-to-approach-dp.md)
@@ -32,7 +37,3 @@
 ## bit manipulation
 
 * [💀 operators](bit-manipulation/operators.md)
-
-## 🕵♂ backtracking
-
-* [intuition + examples](backtracking/intuition-+-examples.md)

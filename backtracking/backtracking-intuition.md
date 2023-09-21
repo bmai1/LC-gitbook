@@ -1,8 +1,10 @@
-# intuition + examples
+# 😹 backtracking intuition
 
-backtracking is quite similar to brute force, but through a recursive function with a base case, we can avoid unnecessary calculations. &#x20;
+Backtracking is <mark style="color:yellow;">quite similar to brute force</mark>, but through a recursive function with a base case, we can avoid unnecessary calculations for states that aren't valid. &#x20;
 
-general recursive template:
+* For each state, we try the nextState and then revert to old state to check all possibilities
+
+#### General recursive template:
 
 ```cpp
 void backtrack(states, currState) {
@@ -11,14 +13,14 @@ void backtrack(states, currState) {
     // do something
     
     for (? in states) {
+        state = nextState // turn into nextState and try solution
         backtrack(state, nextState(?));
+        state.revert(); // revert to old state
     }
 }
 ```
 
-template examples:
-
-1863 - Subset XOR Sum
+Example: 1863 - Subset XOR Sum
 
 ```cpp
 class Solution {

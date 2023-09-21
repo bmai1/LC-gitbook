@@ -1,6 +1,6 @@
 # 👹 two pointers
 
-Concept: Two ptrs iterate through A (one at first and last index of SA), each move 1 dir
+Concept: Two pointers iterate through array (one at first and last index of SA), each move 1 dir
 
 ```
 Applicability of 2ptr depends on relation of window scopes:

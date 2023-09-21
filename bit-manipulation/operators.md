@@ -1,6 +1,8 @@
 # 💀 operators
 
-loop through bits:
+<figure><img src="../.gitbook/assets/op.png" alt=""><figcaption></figcaption></figure>
+
+Loop through bits (from last bit to first):
 
 ```cpp
 while (n) {
@@ -8,8 +10,6 @@ while (n) {
     n >>= 1;
 }
 ```
-
-<figure><img src="../.gitbook/assets/op.png" alt=""><figcaption></figcaption></figure>
 
 \_\_builtin\_popcount: count set (1) bits
 

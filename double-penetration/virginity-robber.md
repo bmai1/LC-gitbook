@@ -1,8 +1,10 @@
 # 🤑 virginity robber
 
-Let's use [198. House Robber ](https://leetcode.com/problems/house-robber/description/?orderBy=most\_votes)as an example of each step.
+Let's use [198. House Robber ](https://leetcode.com/problems/house-robber/description/?orderBy=most\_votes)to demonstrate each step of dp intuition.
 
-### 1. Find recursive relation
+### 1. Find recursive relation (most important step)
+
+idk how just do it lol
 
 ### 2. Recursive top-bottom
 
