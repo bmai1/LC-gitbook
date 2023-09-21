@@ -27,7 +27,9 @@
 ## double penetration
 
 * [😰 how to approach dp](double-penetration/how-to-approach-dp.md)
+* [🦈 fibonacci](double-penetration/fibonacci.md)
 * [🤑 virginity robber](double-penetration/virginity-robber.md)
+* [🩰 knapsack (balls)](double-penetration/knapsack-balls.md)
 
 ## Amortized Analysis
 
