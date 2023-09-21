@@ -9,6 +9,7 @@
 
 ## Search Algorithms
 
+* [😏 brutal (complete search)](search-algorithms/brutal-complete-search.md)
 * [🥴 binary search](search-algorithms/binary-search.md)
 * [🥵 dfs](search-algorithms/dfs.md)
 * [🍆 bfs](search-algorithms/bfs.md)
