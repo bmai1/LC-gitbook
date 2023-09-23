@@ -39,6 +39,7 @@
 ## graphs
 
 * [👽 what's a graph?](graphs/whats-a-graph.md)
+* [🤩 graph representations](graphs/graph-representations.md)
 
 ## trees
 

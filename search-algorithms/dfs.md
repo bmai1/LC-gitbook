@@ -1,3 +1,7 @@
+---
+description: 'Time complexity: O(n + m), n-nodes, m-edges'
+---
+
 # 🥵 dfs
 
 #### ver 1. recursive dfs template
@@ -47,3 +51,19 @@ void dfs(vector<vector<int>>& grid, vector<vector<bool>>& visited, int startRow,
 
 * same idea, just using a stack and while loop instead of recursion
 * can be somewhat easier to manage memory and avoid stack overflow
+
+#### ver 3. graph dfs
+
+```cpp
+vector<int> adj[N]; // adjacency list
+bool visited[N];
+
+void dfs(int s) {
+    if (visited[s]) return;
+    visited[s] = true;
+    // process node s
+    for (auto u: adj[s]) {
+        dfs(u); 
+    }
+}
+```

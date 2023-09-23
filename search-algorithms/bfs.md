@@ -1,3 +1,7 @@
+---
+description: 'Time complexity: O(n + m), n-nodes, m-edges'
+---
+
 # 🍆 bfs
 
 #### ver 1. iterative bfs via queue template
