@@ -15,10 +15,6 @@
 * [🍆 bfs](search-algorithms/bfs.md)
 * [🥶 A\* search](search-algorithms/a-search.md)
 
-## graphs
-
-* [👽 what's a graph?](graphs/whats-a-graph.md)
-
 ## backtracking
 
 * [😹 backtracking intuition](backtracking/backtracking-intuition.md)
@@ -39,3 +35,13 @@
 ## bit manipulation
 
 * [💀 operators](bit-manipulation/operators.md)
+
+## graphs
+
+* [👽 what's a graph?](graphs/whats-a-graph.md)
+
+## trees
+
+* [🥰 binary search tree](trees/binary-search-tree.md)
+* [🐍 segment tree](trees/segment-tree.md)
+* [😌 fenwick tree](trees/fenwick-tree.md)
