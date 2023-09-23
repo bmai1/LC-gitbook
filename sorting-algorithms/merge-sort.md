@@ -13,7 +13,7 @@ description: i also call this the two balls & penis sort !
 // - conquer subproblems by solving recursively
 // - combine subsolution
 // - Merge Sort follows div/conq paradigm
-//     - Intuition: 2 subsequ (n/2 elements), recursive sort, merge sorted subseq
+//     - Intuition: 2 subseq (n/2 elements), recursive sort, merge sorted subseq
 //     - Recursion stops when subseq length == 1
 
 
