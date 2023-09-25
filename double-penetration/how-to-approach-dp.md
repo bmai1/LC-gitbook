@@ -1,4 +1,8 @@
-# 😰 how to approach dp
+---
+description: technique, not an algorithm
+---
+
+# 😰 dp intuition
 
 Dynamic programming <mark style="color:yellow;">involves</mark> <mark style="color:yellow;">solving a</mark> <mark style="color:yellow;"></mark>_<mark style="color:yellow;">recurrence relation</mark>_ (a formula where the next term is a function of previous terms) to find solution to a given problem through smaller subproblems.
 

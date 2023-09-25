@@ -1,8 +1,6 @@
 # 🪟 sliding window
 
-```
-A fixed, constant-size subarray that goes from left to right through the array.
-```
+Idea: A fixed, <mark style="color:green;">constant-size subarray</mark> that goes from left to right (or backwards) through the array.
 
 ### Max Sliding Window&#x20;
 

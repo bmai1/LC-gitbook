@@ -1,5 +1,5 @@
 ---
-description: i also call this the two balls & penis sort !
+description: 'Time complexity: O(nlogn) --> i also call this the two balls & penis sort !'
 ---
 
 # 🤪 merge sort

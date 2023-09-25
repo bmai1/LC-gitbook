@@ -1,6 +1,10 @@
+---
+description: 'Time complexity: O(logn)'
+---
+
 # 🥴 binary search
 
-Binary search <mark style="color:yellow;">generally requires a sorted list of elements</mark>, but can also be applied to more complex problems. It has a time complexity of O(logn).
+Binary search <mark style="color:yellow;">generally requires a sorted list of elements</mark>, but can also be applied to more complex problems.
 
 ### Intuition:
 

@@ -1,3 +1,7 @@
+---
+description: 'Time complexity: varies by application'
+---
+
 # 😏 brutal (complete search)
 
 recursively generate all subsets of set {0,1,...,n-1}

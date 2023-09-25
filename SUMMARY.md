@@ -22,7 +22,7 @@
 
 ## double penetration
 
-* [😰 how to approach dp](double-penetration/how-to-approach-dp.md)
+* [😰 dp intuition](double-penetration/how-to-approach-dp.md)
 * [🦈 fibonacci](double-penetration/fibonacci.md)
 * [🤑 virginity robber](double-penetration/virginity-robber.md)
 * [🥂 champagne tower](double-penetration/champagne-tower.md)
