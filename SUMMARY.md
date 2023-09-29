@@ -44,6 +44,6 @@
 
 ## trees
 
-* [🥰 binary search tree](trees/binary-search-tree.md)
+* [🥰 binary (search) tree](trees/binary-search-tree.md)
 * [🐍 segment tree](trees/segment-tree.md)
 * [😌 fenwick tree](trees/fenwick-tree.md)
