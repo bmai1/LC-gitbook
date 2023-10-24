@@ -27,3 +27,33 @@ void bfs(vector<vector<int>>& grid, int startRow, int startCol) {
     }
 }
 ```
+
+#### example of applied iterative tree bfs:
+
+```cpp
+class Solution {
+public:
+    vector<int> largestValues(TreeNode* root) {
+        if (!root) return {};
+  
+        vector<int> ans;
+        queue<TreeNode*> q;
+        q.push(root);
+
+        while (!q.empty()) {
+            int n = q.size();
+            int m = INT_MIN;
+            // goes by row and finds the max
+            for (int i = 0; i < n; ++i) {
+                auto node = q.front(); q.pop();
+                m = max(m, node->val);
+                // these nodes are not processed immediately 
+                if (node->left)  q.push(node->left);
+                if (node->right) q.push(node->right);
+            }
+            ans.push_back(m);
+        }
+        return ans;
+    }
+};
+```

@@ -1,24 +1,24 @@
 # Table of contents
 
-* [DSA notes + LC tips](README.md)
+* [🙂 LeetCode, DSA, and Schizophrenia](README.md)
 
-## Sorting algorithms
+## Sort these nuts
 
-* [🤢 bubble sort](sorting-algorithms/bubble-sort.md)
-* [🤪 merge sort](sorting-algorithms/merge-sort.md)
+* [🤢 bubble sort](sort-these-nuts/bubble-sort.md)
+* [🤪 merge sort](sort-these-nuts/merge-sort.md)
 
-## Search Algorithms
+## Search Me Daddy
 
-* [😏 brutal (complete search)](search-algorithms/brutal-complete-search.md)
-* [🥴 binary search](search-algorithms/binary-search.md)
-* [🥵 dfs](search-algorithms/dfs.md)
-* [🍆 bfs](search-algorithms/bfs.md)
-* [🥶 A\* search](search-algorithms/a-search.md)
+* [😏 brutal (complete search)](search-me-daddy/brutal-complete-search.md)
+* [🥴 binary search](search-me-daddy/binary-search.md)
+* [🥵 dfs](search-me-daddy/dfs.md)
+* [🍆 bfs](search-me-daddy/bfs.md)
+* [🥶 A\* search](search-me-daddy/a-search.md)
 
-## backtracking
+## backtracking asylum
 
-* [😹 backtracking intuition](backtracking/backtracking-intuition.md)
-* [👑 N-Queens (51.)](backtracking/n-queens-51..md)
+* [😹 backtracking intuition](backtracking-asylum/backtracking-intuition.md)
+* [👑 N-Queens (51.)](backtracking-asylum/n-queens-51..md)
 
 ## double penetration
 
@@ -28,10 +28,10 @@
 * [🥂 champagne tower](double-penetration/champagne-tower.md)
 * [🩰 knapsack (balls)](double-penetration/knapsack-balls.md)
 
-## Amortized Analysis
+## Amortized Anal-ysis
 
-* [👹 two pointers](amortized-analysis/two-pointers.md)
-* [🪟 sliding window](amortized-analysis/sliding-window.md)
+* [👹 two pointers](amortized-anal-ysis/two-pointers.md)
+* [🪟 sliding window](amortized-anal-ysis/sliding-window.md)
 
 ## bit manipulation
 

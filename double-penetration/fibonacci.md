@@ -1,14 +1,18 @@
+---
+description: most basic dp problem
+---
+
 # 🦈 fibonacci
 
 ```cpp
 // Skiena 8.1.3 Example: Fibonacci (find nth fib)
 
-Recursive approach:
+// Recursive approach:
 def fib(n):
     if n <= 1 return n
     return fib(n - 1) + fib(n - 2)
 
-Caching (Memoization):
+// Caching (Memoization):
 def fib(n):
     int dp[n + 1];
     dp[0] = 0;
@@ -18,7 +22,7 @@ def fib(n):
     }
     return dp[n];
 
-Optimization (time/memory), O(n) time, O(1) space:
+// Optimization (time/memory), O(n) time, O(1) space:
 def fib(n):
     int pp = 0;
     int p = 1;
