@@ -2,10 +2,10 @@
 
 * [🙂 LeetCode, DSA, and Schizophrenia](README.md)
 
-## Sort these nuts
+## Sort me mommy
 
-* [🤢 bubble sort](sort-these-nuts/bubble-sort.md)
-* [🤪 merge sort](sort-these-nuts/merge-sort.md)
+* [🤢 bubble sort](sort-me-mommy/bubble-sort.md)
+* [🤪 merge sort](sort-me-mommy/merge-sort.md)
 
 ## Search Me Daddy
 
@@ -33,18 +33,22 @@
 * [👹 two pointers](amortized-anal-ysis/two-pointers.md)
 * [🪟 sliding window](amortized-anal-ysis/sliding-window.md)
 
-## bit manipulation
+## bit (ch) manipulation
 
-* [💀 operators](bit-manipulation/operators.md)
+* [💀 operators](bit-ch-manipulation/operators.md)
 
-## graphs
+## graph a gazillion dollers
 
-* [👽 what's a graph?](graphs/whats-a-graph.md)
-* [🤩 graph representations](graphs/graph-representations.md)
-* [☹ union find](graphs/union-find.md)
+* [👽 what's a graph?](graph-a-gazillion-dollers/whats-a-graph.md)
+* [🤩 graph representations](graph-a-gazillion-dollers/graph-representations.md)
+* [☹️ union find](graph-a-gazillion-dollers/union-find.md)
 
-## trees
+## trees wrongs
 
-* [🥰 binary (search) tree](trees/binary-search-tree.md)
-* [🐍 segment tree](trees/segment-tree.md)
-* [😌 fenwick tree](trees/fenwick-tree.md)
+* [🥰 binary (search) tree](trees-wrongs/binary-search-tree.md)
+* [🐍 segment tree](trees-wrongs/segment-tree.md)
+* [😌 fenwick tree](trees-wrongs/fenwick-tree.md)
+
+## Lesbian Linked Lists
+
+* [🧌 imp](lesbian-linked-lists/imp.md)

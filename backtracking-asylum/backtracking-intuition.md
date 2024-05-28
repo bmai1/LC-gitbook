@@ -4,7 +4,7 @@ description: technique, not an algorithm
 
 # 😹 backtracking intuition
 
-Backtracking is <mark style="color:yellow;">quite similar to brute force</mark>, but through a recursive function with a base case, we can avoid unnecessary calculations for states that aren't valid. &#x20;
+Backtracking is <mark style="color:yellow;">similar to brute force</mark>, but through a recursive function with a base case, we can avoid unnecessary calculations for states that aren't valid. &#x20;
 
 * For each state, we try the nextState and then revert to old state to check all possibilities
 
