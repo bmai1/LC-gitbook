@@ -37,11 +37,11 @@
 
 * [💀 operators](bit-ch-manipulation/operators.md)
 
-## graph a gazillion dollers
+## graph gerrymandering
 
-* [👽 what's a graph?](graph-a-gazillion-dollers/whats-a-graph.md)
-* [🤩 graph representations](graph-a-gazillion-dollers/graph-representations.md)
-* [☹️ union find](graph-a-gazillion-dollers/union-find.md)
+* [👽 what's a graph?](graph-gerrymandering/whats-a-graph.md)
+* [🤩 graph representations](graph-gerrymandering/graph-representations.md)
+* [☹️ union find](graph-gerrymandering/union-find.md)
 
 ## trees wrongs
 
