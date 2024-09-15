@@ -36,12 +36,14 @@
 ## bit (ch) manipulation
 
 * [💀 operators](bit-ch-manipulation/operators.md)
+* [🎭 mask](bit-ch-manipulation/mask.md)
 
 ## graph gerrymandering
 
 * [👽 what's a graph?](graph-gerrymandering/whats-a-graph.md)
 * [🤩 graph representations](graph-gerrymandering/graph-representations.md)
 * [☹️ union find](graph-gerrymandering/union-find.md)
+* [🍇 topological sort](graph-gerrymandering/topological-sort.md)
 
 ## trees wrongs
 
