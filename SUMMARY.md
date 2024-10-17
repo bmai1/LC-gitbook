@@ -2,55 +2,57 @@
 
 * [🙂 LeetCode, DSA, and Schizophrenia](README.md)
 
-## Sort me mommy
+## Sort
 
-* [🤢 bubble sort](sort-me-mommy/bubble-sort.md)
-* [🤪 merge sort](sort-me-mommy/merge-sort.md)
+* [🤢 bubble sort](sort/bubble-sort.md)
+* [🤪 merge sort](sort/merge-sort.md)
+* [insertion sort](sort/insertion-sort.md)
+* [selection sort](sort/selection-sort.md)
 
-## Search Me Daddy
+## Search
 
-* [😏 brutal (complete search)](search-me-daddy/brutal-complete-search.md)
-* [🥴 binary search](search-me-daddy/binary-search.md)
-* [🥵 dfs](search-me-daddy/dfs.md)
-* [🍆 bfs](search-me-daddy/bfs.md)
-* [🥶 A\* search](search-me-daddy/a-search.md)
+* [😏 brute force methods](search/brute-force-methods.md)
+* [🥴 binary search](search/binary-search.md)
+* [🥵 dfs](search/dfs.md)
+* [🍆 bfs](search/bfs.md)
+* [🥶 A\* search](search/a-search.md)
 
-## backtracking asylum
+## backtracking
 
-* [😹 backtracking intuition](backtracking-asylum/backtracking-intuition.md)
-* [👑 N-Queens (51.)](backtracking-asylum/n-queens-51..md)
+* [😹 backtracking intuition](backtracking/backtracking-intuition.md)
+* [👑 N-Queens](backtracking/n-queens.md)
 
-## double penetration
+## dynamic programming
 
-* [😰 dp intuition](double-penetration/how-to-approach-dp.md)
-* [🦈 fibonacci](double-penetration/fibonacci.md)
-* [🤑 virginity robber](double-penetration/virginity-robber.md)
-* [🥂 champagne tower](double-penetration/champagne-tower.md)
-* [🩰 knapsack (balls)](double-penetration/knapsack-balls.md)
+* [😰 dp intuition](dynamic-programming/how-to-approach-dp.md)
+* [🦈 fibonacci](dynamic-programming/fibonacci.md)
+* [🤑 virginity robber](dynamic-programming/virginity-robber.md)
+* [🥂 champagne tower](dynamic-programming/champagne-tower.md)
+* [👾 knapsack](dynamic-programming/knapsack.md)
 
-## Amortized Anal-ysis
+## Amortized Analysis
 
-* [👹 two pointers](amortized-anal-ysis/two-pointers.md)
-* [🪟 sliding window](amortized-anal-ysis/sliding-window.md)
+* [👹 two pointers](amortized-analysis/two-pointers.md)
+* [🪟 sliding window](amortized-analysis/sliding-window.md)
 
-## bit (ch) manipulation
+## bit manipulation
 
-* [💀 operators](bit-ch-manipulation/operators.md)
-* [🎭 mask](bit-ch-manipulation/mask.md)
+* [💀 operators](bit-manipulation/operators.md)
+* [🎭 mask](bit-manipulation/mask.md)
 
-## graph gerrymandering
+## graph
 
-* [👽 what's a graph?](graph-gerrymandering/whats-a-graph.md)
-* [🤩 graph representations](graph-gerrymandering/graph-representations.md)
-* [☹️ union find](graph-gerrymandering/union-find.md)
-* [🍇 topological sort](graph-gerrymandering/topological-sort.md)
+* [👽 what's a graph?](graph/whats-a-graph.md)
+* [🤩 graph representations](graph/graph-representations.md)
+* [☹️ union find](graph/union-find.md)
+* [🍇 topological sort](graph/topological-sort.md)
 
-## trees wrongs
+## trees
 
-* [🥰 binary (search) tree](trees-wrongs/binary-search-tree.md)
-* [🐍 segment tree](trees-wrongs/segment-tree.md)
-* [😌 fenwick tree](trees-wrongs/fenwick-tree.md)
+* [🥰 binary (search) tree](trees/binary-search-tree.md)
+* [🐍 segment tree](trees/segment-tree.md)
+* [😌 fenwick tree](trees/fenwick-tree.md)
 
-## Lesbian Linked Lists
+## Linked Lists
 
-* [🧌 imp](lesbian-linked-lists/imp.md)
+* [🧌 basic implementation](linked-lists/basic-implementation.md)

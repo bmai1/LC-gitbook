@@ -34,6 +34,30 @@ Important:
 * design inner conditional to adjust left and right index accordingly (mid, mid + 1, mid - 1, ?)
 * decide return condition (lo, mid, hi, ?) to match problem
 
+### Java (CS 46B) Binary Search
+
+```java
+public static int recursiveBinarySearch(int nums[], int target, int lo, int hi) {
+    if (lo < hi) return -1; 
+    // or check if (hi >= lo) {...} else return -1 at bottom
+    
+    int mid = (lo + hi) / 2;
+    if (nums[mid] < target) return recursiveBinarySearch(nums, target, lo, mid - 1);
+    else if (nums[mid] > target) return recursiveBinarySearch(nums, target, mid + 1, hi);
+    else return mid;
+}
+
+public static int binarySearch(int nums[], int target, int lo, int hi) {
+    while (lo <= hi) {
+        int mid = (lo + hi) / 2;
+        if (nums[mid] == target) return mid;
+        else if (nums[mid] < target) lo = mid + 1;
+        else hi = mid - 1;
+    }
+    return -1;
+}
+```
+
 ### C++ STL
 
 * lower\_bound returns a pointer to the first array element whose value is at least x
