@@ -2,7 +2,10 @@
 
 ### Common Graph Representations
 
-* adjacency list (size n vertices)
+Adjacency list:
+
+* each vertex stores a list of edges
+* O(V + E) space, each vertex appears 1x while edge 2x
 
 ```cpp
 vector<vector<int>> adj(n); // n-vertices
@@ -22,7 +25,10 @@ for (int currNode = 0; currNode < adj.size(); ++currNode) {
 }
 ```
 
-* adjacency matrix -> each value adj\[a]\[b] indicate edge from node a to node b (correspond to weight)
+Adjacency matrix -> each value adj\[a]\[b] indicate edge from node a to node b (correspond to weight)
+
+<figure><img src="../.gitbook/assets/adj matrix (1).png" alt=""><figcaption><p>graphical rep. of adj. matrix</p></figcaption></figure>
+
 * edge list -> don't need to start from particular node, each pair (a, b) denote edge a->b
 
 ```cpp
