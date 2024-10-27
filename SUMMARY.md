@@ -44,6 +44,9 @@
 
 * [👽 what's a graph?](graph/whats-a-graph.md)
 * [🤩 graph representations](graph/graph-representations.md)
+* [bfs/dfs for graphs](graph/bfs-dfs-for-graphs.md)
+* [dijkstra shortest path](graph/dijkstra-shortest-path.md)
+* [bellman-ford shortest path](graph/bellman-ford-shortest-path.md)
 * [☹️ union find](graph/union-find.md)
 * [🍇 topological sort](graph/topological-sort.md)
 
