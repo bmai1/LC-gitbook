@@ -6,7 +6,93 @@ For Directed Acyclic Graphs (DAG)&#x20;
 * can use dfs and bfs to find a valid path (or detect a cycle, in which case the sort is invalid)
 * may take in a graph input as an adjacency list
 
-Example problem (Kattis pickupsticks):
+Kahn's Algorithm (BFS-based):
+
+* "In-degree" refers to the number of edges that are directed towards a specific vertex
+* Find vertices with no in-degrees and remove them from graph
+* Update remaining vertices' incoming edges
+* Repeat until all vertices are sorted
+
+```cpp
+#include <bits/stdc++.h>
+#include "graph.cpp"
+
+using namespace std;
+
+vector<Vertex> topologicalSort(Graph graph) {
+    vector<Vertex> res;
+    vector<Vertex> vertices = graph.getVertices();
+
+    unordered_map<string, int> inDegree;
+    for (const Vertex& vertex : vertices) {
+        inDegree[vertex.getLabel()] = 0;
+    }
+
+    for (const Vertex& vertex : vertices) {
+        for (const Edge& edge : graph.getEdges(vertex)) {
+            inDegree[edge.destination.getLabel()]++;
+        }
+    }
+
+    queue<Vertex> q;
+    for (const Vertex& vertex : vertices) {
+        if (inDegree[vertex.getLabel()] == 0) {
+            q.push(vertex);
+        }
+    }
+
+    while (!q.empty()) {
+        Vertex curr = q.front();
+        q.pop();
+        res.push_back(curr);
+
+        // Sort edges based on destination vertex label before processing
+        vector<Edge> edges = graph.getEdges(curr);
+        sort(edges.begin(), edges.end(), [](const Edge& e1, const Edge& e2) {
+            return e1.destination.getLabel() < e2.destination.getLabel();
+        });
+
+        for (const Edge& edge : edges) {
+            string neighborLabel = edge.destination.getLabel();
+            inDegree[neighborLabel]--;
+            if (inDegree[neighborLabel] == 0) {
+                q.push(edge.destination);
+            }
+        }
+    }
+
+    return res;
+}
+
+int main() {
+    Graph graph;
+
+    graph.addVertex("A");
+    graph.addVertex("B");
+    graph.addVertex("C");
+    graph.addVertex("D");
+    graph.addVertex("E");
+
+    graph.addEdge("A", "B", 0);
+    graph.addEdge("A", "C", 0);
+    graph.addEdge("B", "C", 0);
+    graph.addEdge("B", "D", 0);
+    graph.addEdge("C", "E", 0);
+    graph.addEdge("D", "E", 0);
+
+    vector<Vertex> sortedVertices = topologicalSort(graph);
+    for (const Vertex& vertex : sortedVertices) {
+        cout << vertex.getLabel() << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+```
+
+DFS can also be used.
+
+Example DFS-based topological sorting problem (Kattis pickupsticks):
 
 ```cpp
 #include <bits/stdc++.h>
@@ -28,6 +114,7 @@ void dfs(int node) {
             return;
         }
     }
+    // finished processing node with no cycle
     visited[node] = 2;   
     ans.push_back(node);
 }

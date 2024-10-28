@@ -26,7 +26,7 @@
 
 * [😰 dp intuition](dynamic-programming/how-to-approach-dp.md)
 * [🦈 fibonacci](dynamic-programming/fibonacci.md)
-* [🤑 virginity robber](dynamic-programming/virginity-robber.md)
+* [🤑 house robber](dynamic-programming/virginity-robber.md)
 * [🥂 champagne tower](dynamic-programming/champagne-tower.md)
 * [👾 knapsack](dynamic-programming/knapsack.md)
 
