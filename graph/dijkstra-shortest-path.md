@@ -6,94 +6,14 @@ icon: person-carry-box
 
 Time complexity: O(V^2) with array, O(V + ElogV) with min-priority queue (heap)
 
+Intuition: label each vertex with least cost found so far
+
+1. update estimate required to get to vertex
+2. choose next vertex to explore edges (smallest estimated cost)
+
+<figure><img src="../.gitbook/assets/dijkstra.png" alt=""><figcaption><p>Dijkstra's shortest path pseudocode</p></figcaption></figure>
+
 Note: because Dijkstra's greedily selects the min edge weight, it cannot handle negative weights (negative weight cycle).
-
-Basic implementation of graph:
-
-```cpp
-#include <bits/stdc++.h>
-
-using namespace std;
-
-class Vertex {
-    public:
-        Vertex(string label) : label(label) {}
-
-        string getLabel() const {
-            return label;
-        }
-
-        bool operator==(const Vertex& other) const {
-            return label == other.label;
-        }
-    
-        // Hash function to use Vertex in unordered_map
-        struct HashFunction {
-        size_t operator()(const Vertex& v) const {
-            return hash<string>()(v.getLabel());
-        }
-    };
-    private: 
-        string label;
-};
-
-class Edge {
-    public:
-        Vertex source;
-        Vertex destination;
-        double weight;
-
-        // initializer list ctor
-        Edge(Vertex source, Vertex destination, double weight); 
-};
-
-// can declare outside of class
-Edge::Edge(Vertex source, Vertex destination, double weight) : source(source), destination(destination), weight(weight) {}
-
-// simpler representation of edges for integer vertices
-// [source, destination, weight] vectors
-// vector<vector<int>> edges;
-
-class Graph {
-    public:
-        Graph(const vector<Edge>& edges) {
-            for (const Edge& edge : edges) {
-                addEdge(edge.source, edge.destination, edge.weight);
-            }
-        }
-        Vertex addVertex(string label) {
-            Vertex newVertex = Vertex(label);
-            adjacencyList[newVertex];
-            return newVertex;
-        }
-        void addEdge(const Vertex& source, const Vertex& destination, double weight) {
-            Edge edge(source, destination, weight);
-            adjacencyList[source].push_back(edge);
-            adjacencyList[destination].push_back(edge); // For undirected graphs, add both directions
-        }
-
-        vector<Vertex> getVertices() const {
-            vector<Vertex> vertices;
-            for (const auto& pair : adjacencyList) {
-                vertices.push_back(pair.first);
-            }
-            return vertices;
-        }
-
-        const vector<Edge>& getEdges(const Vertex& vertex) const {
-            auto it = adjacencyList.find(vertex);
-            if (it != adjacencyList.end()) {
-                return it->second;
-            }
-            throw runtime_error("Vertex not found in the graph.");
-        }
-
-    private:
-        unordered_map<Vertex, vector<Edge>, Vertex::HashFunction> adjacencyList;
-};
-```
-
-Applying Dijkstra's:
 
 ```cpp
 #include <bits/stdc++.h>
