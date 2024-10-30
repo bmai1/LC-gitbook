@@ -49,7 +49,8 @@
 * [bellman-ford shortest path](graph/bellman-ford-shortest-path.md)
 * [☹️ union find](graph/union-find.md)
 * [🍇 topological sort](graph/topological-sort.md)
-* [minimum spanning tree](graph/minimum-spanning-tree.md)
+* [kruskal's MST](graph/kruskals-mst.md)
+* [floyd-warshall](graph/floyd-warshall.md)
 
 ## trees
 
