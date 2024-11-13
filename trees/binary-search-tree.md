@@ -1,5 +1,18 @@
 # 🥰 binary (search) tree
 
+Binary search trees are sorted binary trees such that left node values will be strictly less than the parent node value, and right node values are strictly greater.
+
+* Leaf nodes: no children
+* Internal nodes (includes root): have children
+* Successor node (smallest node greater than current node)
+
+Different types of trees:
+
+* (height) balanced: left and right subtrees' heights differ by not more than 1
+* full: every node has 0 or 2 children
+* complete: all levels (except possibly last) contain all possible nodes, last level farthest left.
+* perfect: all internal nodes 2 children, all leaves same level
+
 ```cpp
 // Definition for a binary tree node.
 struct TreeNode {
@@ -12,8 +25,6 @@ struct TreeNode {
  };
 
 ```
-
-* Binary search trees are sorted binary trees such that left node values will be strictly less than the parent node value, and right node values are strictly greater.
 
 **Common traversal templates:**
 
