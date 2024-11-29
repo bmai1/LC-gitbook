@@ -46,6 +46,7 @@
 * [🤩 graph representations](graph/graph-representations.md)
 * [bfs/dfs for graphs](graph/bfs-dfs-for-graphs.md)
 * [dijkstra shortest path](graph/dijkstra-shortest-path.md)
+* [0-1 BFS](graph/0-1-bfs.md)
 * [bellman-ford shortest path](graph/bellman-ford-shortest-path.md)
 * [☹️ union find](graph/union-find.md)
 * [🍇 topological sort](graph/topological-sort.md)
