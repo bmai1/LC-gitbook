@@ -52,6 +52,7 @@
 * [🍇 topological sort](graph/topological-sort.md)
 * [kruskal's MST](graph/kruskals-mst.md)
 * [floyd-warshall](graph/floyd-warshall.md)
+* [eulerian circuit: hierholzer's](graph/eulerian-circuit-hierholzers.md)
 
 ## trees
 
