@@ -65,3 +65,4 @@
 ## Linked Lists
 
 * [🧌 basic implementation](linked-lists/basic-implementation.md)
+* [reverse](linked-lists/reverse.md)
