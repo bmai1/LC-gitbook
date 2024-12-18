@@ -8,6 +8,7 @@
 * [🤪 merge sort](sort/merge-sort.md)
 * [insertion sort](sort/insertion-sort.md)
 * [selection sort](sort/selection-sort.md)
+* [monotonic stack](sort/monotonic-stack.md)
 
 ## Search
 
