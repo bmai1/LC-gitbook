@@ -62,6 +62,7 @@
 * [🐍 segment tree](trees/segment-tree.md)
 * [😌 fenwick tree](trees/fenwick-tree.md)
 * [level sum](trees/level-sum.md)
+* [tree diameter](trees/tree-diameter.md)
 
 ## Linked Lists
 
