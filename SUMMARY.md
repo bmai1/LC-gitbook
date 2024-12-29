@@ -8,6 +8,7 @@
 * [🤪 merge sort](sort/merge-sort.md)
 * [insertion sort](sort/insertion-sort.md)
 * [selection sort](sort/selection-sort.md)
+* [heapsort](sort/heapsort.md)
 * [monotonic stack](sort/monotonic-stack.md)
 
 ## Search
@@ -68,3 +69,8 @@
 
 * [🧌 basic implementation](linked-lists/basic-implementation.md)
 * [reverse](linked-lists/reverse.md)
+
+## Heap
+
+* [🦀 rust implementation](heap/rust-implementation.md)
+* [©️ c++ priority queue](heap/c++-priority-queue.md)
