@@ -64,6 +64,7 @@
 * [😌 fenwick tree](trees/fenwick-tree.md)
 * [level sum](trees/level-sum.md)
 * [tree diameter](trees/tree-diameter.md)
+* [🔴 red-black](trees/red-black.md)
 
 ## Linked Lists
 
